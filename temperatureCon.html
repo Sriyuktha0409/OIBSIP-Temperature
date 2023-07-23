@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="temCon.css">
+    <script src="tempCon.js"></script>
+</head>
+<body>
+    <div class="d1">
+        <label><p>Enter temperature</p></label><br>
+        <input type="number" id="temp" placeholder="Temp...">
+        <label><p>Scale</p></label>
+        <select id="scale">
+            <option value="cel">Celsius</option>
+            <option value="fah">Fahrenheit</option>
+        </select><br><br>
+        <button onclick="teCon()">Convert</button>
+        <br>
+        <div id="result"></div>
+    </div>
+</body>
+</html>
